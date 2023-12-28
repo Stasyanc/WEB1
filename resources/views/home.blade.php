@@ -16,10 +16,10 @@
     </div>
     @if(!(empty($fio) || empty($phone)) )
     <div>
-        {{$fio}}
+        {{mb_substr($fio,0,160,'UTF-8')}}
     </div>
     <div>
-        {{$phone}}
+        {{preg_replace("/[^0-9]/", "", $phone)}}
     </div>
     @endif
 </body>

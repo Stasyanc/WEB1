@@ -16,9 +16,5 @@
     <p>Ваш номер телефона: <input name="number_phone"></p>
     <input type="submit" value="Отправить">
 </form>
-<div>
-    <div>Ваши данные</div>
-
-</div>
 </body>
 </html>
